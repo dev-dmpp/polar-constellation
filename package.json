@@ -1,0 +1,22 @@
+{
+  "name": "polar-constellation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Constelación Polar — interactive 3D space portfolio",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.171.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/three": "^0.171.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}
